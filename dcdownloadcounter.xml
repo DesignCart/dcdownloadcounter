@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="system" method="upgrade" version="5.0">
+    <name>PLG_SYSTEM_DCDOWNLOADCOUNTER</name>
+    <author>Design Cart</author>
+    <creationDate>2025-11-15</creationDate>
+    <version>1.0.0</version>
+    <description>PLG_SYSTEM_DCDOWNLOADCOUNTER_DESC</description>
+	
+	 <languages>
+        <language tag="en-GB">language/en-GB/en-GB.plg_system_dcdownloadcounter.ini</language>
+        <language tag="en-GB">language/en-GB/en-GB.plg_system_dcdownloadcounter.sys.ini</language>
+        <language tag="pl-PL">language/pl-PL/pl-PL.plg_system_dcdownloadcounter.ini</language>
+        <language tag="pl-PL">language/pl-PL/pl-PL.plg_system_dcdownloadcounter.sys.ini</language>
+    </languages>
+	
+    <files>
+        <filename plugin="dcdownloadcounter">dcdownloadcounter.php</filename>
+    </files>
+
+    <media folder="media" destination="plg_system_dcdownloadcounter">
+        <folder>js</folder>
+    </media>
+
+    <config>
+        <fields name="params">
+            <fieldset name="basic" label="PLG_SYSTEM_DCDOWNLOADCOUNTER_FIELDSET_BASIC">
+				<field
+					name="info"
+					type="note"
+					label="Info"
+					class="alert alert-info"
+					description="PLG_SYSTEM_DCDOWNLOADCOUNTER_USAGE"
+				/>
+                <field
+                    name="counter_bg_color"
+                    type="color"
+                    label="PLG_SYSTEM_DCDOWNLOADCOUNTER_BG_COLOR_LABEL"
+                    default="#007ec3"
+                />
+                <field
+                    name="counter_text_color"
+                    type="color"
+                    label="PLG_SYSTEM_DCDOWNLOADCOUNTER_TEXT_COLOR_LABEL"
+                    default="#ffffff"
+                />
+                <field
+                    name="counter_size"
+                    type="list"
+                    label="PLG_SYSTEM_DCDOWNLOADCOUNTER_SIZE_LABEL"
+                    default="m"
+                >
+                    <option value="m">PLG_SYSTEM_DCDOWNLOADCOUNTER_SIZE_M</option>
+                    <option value="l">PLG_SYSTEM_DCDOWNLOADCOUNTER_SIZE_L</option>
+                    <option value="xl">PLG_SYSTEM_DCDOWNLOADCOUNTER_SIZE_XL</option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+</extension>
