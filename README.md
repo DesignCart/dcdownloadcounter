@@ -73,5 +73,10 @@ GNU General Public License v3.0
 ------------------------------------------------
 Developed by
 ------------------------------------------------
-Design Cart – https://www.designcart.pl
+<p>Design Cart – https://www.designcart.pl</p>
+
+<hr>
+<p>👨‍💻 author: <a href="https://www.designcart.pl/pawel-nosko.html">Paweł Nosko</a></p>
+<p>Project page: <a href="https://www.designcart.pl/laboratorium/261-jak-zliczac-klikniecia-w-linki-lub-pobrania-na-stronie-joomla.html">DC Download Counter</a></p>
+<hr>
 Free extensions, tools & LAB experiments for Joomla and e-commerce.
